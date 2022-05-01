@@ -26,6 +26,7 @@
 ---
 
 - [ ] 2. **Create a Unit Test for a Simple Apex Trigger**
+
 *Create and install a simple Apex trigger which blocks inserts and updates to any contact with a last name of 'INVALIDNAME'. You'll copy the code for the class from GitHub. Then write unit tests that achieve 100% code coverage.*
 <details><summary>👣Steps👣</summary>
 
