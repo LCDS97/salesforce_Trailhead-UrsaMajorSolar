@@ -9,8 +9,8 @@
 
 | Trail      | Description | Difficulty     |
 | :---        |    :----:   |          ---: |
-| [Apex Basics & Database](#Apex)     | Trail to study about basics concepts of the language, SOQL and SOSL      | I will write later   |
-| [Quick Start - Apex](#ApexQuickStart)     | Trail to write my a simple class update of Accounts      | A guided trail to Create a Class   |
+| 💾 [Apex Basics & Database](#Apex)     | Trail to study about basics concepts of the language, SOQL and SOSL      | 1 Quiz and 4 Hands On Challenge   |
+| ▶️ [Quick Start - Apex](#ApexQuickStart)     | Trail to write my a simple class update of Accounts      | A guided trail to Create a Class   |
 
 
 </div>
@@ -27,6 +27,7 @@
 | Trail      | Description | Questions and Challenges     |
 | :---        |    :----:   |          ---: |
 | 🚧[Apex Test](#ApexTest)   | Trail about Test class in Salesforce     | 3 Hands-on Challenge      |
+| 💾 [Apex Basics & Database](#ApexTest)   | Need to make the class challenges again     | 4 Hands-on Challenge      |
 
 </div>
 <div align="center">
@@ -51,6 +52,7 @@
 <br>
 
 - [x] 1. **Create an Apex class with a method that returns a list of strings**
+
 *Create an Apex class with a method that returns a list of formatted strings. The length of the list is determined by an integer parameter. You can also use an array if you prefer, but these instructions assume you’re using a list.*
 
 <details><summary>👣Steps👣</summary>
@@ -65,6 +67,77 @@
 
 - ⭐ [Class of the Challenge](./force-app/main/default/classes/Apex-BasicsAndDatabase/StringArrayTest.cls) ⭐
 - ✔️ [Guided Class of the Trail](./force-app/main/default/classes/Apex-BasicsAndDatabase/EmailManager.cls) ✔️
+
+- [x] 2. **Use sObjects**
+
+*Explaining about sObjects in Salesforce, showing some instances and explaining about generic SOjbects to specific Sobjects*
+
+<details><summary>❔ Questions ❔</summary>
+
+- 1. Describe the relationship between sObjects and Salesforce records.
+    A: **(C)** - Every record in Salesforce is natively represented as an sObject in Apex
+
+- 2. You can obtain an instance of an sObject, such as Account, in one of the following ways:
+    A: **(B)** - Either by creating the sObject or by retrieving a persistent record from Salesforce using SOQL.
+
+- 3. Which of the following is correct about a generic sObject variable?
+    A: **(A)** - Generic sObject variable can be assigned to any specific sObject, standard or custom. Such as Accont or Book__c
+
+</details>
+<br>
+
+- [x] 3. **Create a method for inserting accounts.**
+
+*To pass this challenge, create an Apex class that inserts a new account named after an incoming parameter. If the account is successfully inserted, the method should return the account record. If a DML exception occurs, the method should return null.*
+
+<details><summary>👣Steps👣</summary>
+
+>   The Apex class must be called AccountHandler and be in the public scope
+-       The Apex class must have a public static method called insertNewAccount
+-       The method must accept an incoming string as a parameter, which will be used to create the Account name
+-       The method must insert the account into the system and then return the record
+-       The method must also accept an empty string, catch the failed DML and then return null.
+</details>
+<br>
+
+❌**I completed the challenge, but in another Org, I will remake this challenge later**❌
+
+<br>
+
+- [x] 4 - **Create an Apex class that returns contacts based on incoming parameters.**
+
+*Create a class that has a method accepting two strings. The method searches for contacts that have a last name matching the first string and a mailing postal code matching the second. It gets the ID and Name of those contacts and returns them.*
+
+<details><summary>👣Steps👣</summary>
+
+>   The Apex class must be called ContactSearch and be in the public scope
+-       The Apex class must have a public static method called searchForContacts
+-       The method must accept two incoming strings as parameters
+-       The method should then find any contact that has a last name matching the first string, and mailing postal code (API name: MailingPostalCode) matching the second string
+-       The method should finally return a list of Contact records of type List that includes the ID and Name fields
+</details>
+<br>
+
+❌**I completed the challenge, but in another Org, I will remake this challenge later**❌
+<br>
+
+- [x] 5 - **Create an Apex class that returns both contacts and leads based on a parameter.**
+
+*To pass this challenge, create an Apex class that returns both contacts and leads that have first or last name matching the incoming parameter.*
+
+<details><summary>👣Steps👣</summary>
+
+>   The Apex class must be called ContactAndLeadSearch and be in the public scope
+-       The Apex class must have a public static method called searchContactsAndLeads
+-       The method must accept an incoming string as a parameter
+-       The method should then find any contact or lead that matches the string as part of either the first or last name
+-       The method should finally use a return type of List<List< sObject>>
+-       NOTE: Because SOSL indexes data for searching, you must create a Contact record and Lead record before checking this challenge. Both records must have the last name Smith. The challenge uses these records for the SOSL search
+</details>
+<br>
+
+❌**I completed the challenge, but in another Org, I will remake this challenge later**❌
+
 
 ---
 
