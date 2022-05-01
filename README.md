@@ -7,9 +7,10 @@
 
 <h2> <img src="https://media.giphy.com/media/PijzuUzUhm7hcWinGn/giphy.gif" width=50 /> Completed <img src="https://media.giphy.com/media/PijzuUzUhm7hcWinGn/giphy.gif" width=50 /></h2> 
 
-| Trail      | Description | Questions and Challenges     |
+| Trail      | Description | Difficulty     |
 | :---        |    :----:   |          ---: |
-| ⚙️[Apex](#Apex)     | Trail to study about basics concepts of the language       | I will write later   |
+| [Apex](#Apex)     | Trail to study about basics concepts of the language       | I will write later   |
+| [Quick Start - Apex](#ApexQuickStart)     | Trail to write my a simple class update of Accounts      | A guided trail to Create a Class   |
 
 </div>
 <br>
@@ -41,13 +42,38 @@
 </div>
 <br>
 <br>
-<br>
-<br>
-<br>
 <div align="center">
 <h2><img src="https://media.giphy.com/media/11kEuHSQAXXiGQ/giphy.gif" width=50/> Apex <img src="https://media.giphy.com/media/11kEuHSQAXXiGQ/giphy.gif" width=50/></h2> <a name="Apex"></a>
 <img src="https://media.giphy.com/media/Dh5q0sShxgp13DwrvG/giphy.gif" width=400 />
 </div>
+
+---
+
+<div align="center">
+<h3><img src="https://media.giphy.com/media/VhWFMl9M6zKpqB2dkc/giphy.gif" width=30 /> Quick Start: Apex <img src="https://media.giphy.com/media/VhWFMl9M6zKpqB2dkc/giphy.gif" width=30 /></h3>  <a name="ApexQuickStart"></a>
+<img src="https://media.giphy.com/media/OOZLyBA9Euq2I/giphy.gif" width=300 />
+</div>
+
+<br>
+
+- [x] 1. **Create an Apex Class**
+
+*Explaining about an Class in Apex and his similarity with Java and C#*
+
+- [x] 2. **Add a Method to the Class**
+
+*Created a method in the Class Older Account utility named updateOlderAccounts that gets the first five Account records ordered by the created date, and update with a description "Heritage Account"*
+
+- [x] 3. **Invoke and Test the Code**
+
+*Explaining about to Execute the method in the Open Execute Anonymous Window*
+
+- [x] 4. **Verify the Updated Accounts**
+
+*After the code executed in the Developer Console, we will see the result in Salesforce*
+
+- ✔️[Class of the Guided Trail](./force-app/main/default/classes/Apex-QuickStart/OlderAccountsUtility.cls) ✔️
+
 
 ---
 <div align="center">
@@ -72,8 +98,8 @@
 
 </details>
 
-- ⭐ [Class of the Challenge](./force-app/main/default/classes/VerifyDate.cls) ⭐
-- 🚧 [Test Class of the Challenge](./force-app/main/default/classes/TestVerifyDate.cls) 🚧
+- ⭐ [Class of the Challenge](./force-app/main/default/classes/ApexTest/VerifyDate.cls) ⭐
+- 🚧 [Test Class of the Challenge](./force-app/main/default/classes/ApexTest/TestVerifyDate.cls) 🚧
 
 ---
 
