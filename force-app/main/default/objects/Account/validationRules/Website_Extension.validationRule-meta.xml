@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Website_Extension</fullName>
+    <active>false</active>
+    <description>Validates a custom field called Web Site to ensure that its last four characters are in an explicit set of valid website extensions.</description>
+    <errorConditionFormula>AND(
+   RIGHT(  Website , 4) &lt;&gt; &quot;.COM&quot;,
+   RIGHT( Website , 4) &lt;&gt; &quot;.com&quot;,
+   RIGHT( Website , 4) &lt;&gt; &quot;.ORG&quot;,
+   RIGHT( Website , 4) &lt;&gt; &quot;.org&quot;,
+   RIGHT( Website , 4) &lt;&gt; &quot;.NET&quot;,
+   RIGHT( Website , 4) &lt;&gt; &quot;.net&quot;
+ )</errorConditionFormula>
+    <errorDisplayField>Website</errorDisplayField>
+    <errorMessage>Web Site must have an extension of .com, .org, or .net.</errorMessage>
+</ValidationRule>

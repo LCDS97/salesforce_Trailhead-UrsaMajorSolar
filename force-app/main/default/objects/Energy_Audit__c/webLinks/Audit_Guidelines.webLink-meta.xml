@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Audit_Guidelines</fullName>
+    <availability>online</availability>
+    <description>Custom button to let users navigate directly to the Ursa Major Solar energy audit guidelines</description>
+    <displayType>massActionButton</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <height>600</height>
+    <linkType>url</linkType>
+    <masterLabel>Audit Guidelines</masterLabel>
+    <openType>sidebar</openType>
+    <protected>false</protected>
+    <requireRowSelection>true</requireRowSelection>
+    <url>https://curious-narwhal-pie489-dev-ed.my.salesforce.com/sfc/p/5f000005xHOc/a/5f0000008PN8/vDLIL6md7kVlS7swKgsfpMgoDQBcuQoBVg5YoE_DYww</url>
+</WebLink>

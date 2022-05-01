@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Date_First_Opportunity_Created__c</fullName>
+    <description>Displays the earliest date an opportunity was created related to an account</description>
+    <externalId>false</externalId>
+    <label>Date First Opportunity Created</label>
+    <summarizedField>Opportunity.CreatedDate</summarizedField>
+    <summaryForeignKey>Opportunity.AccountId</summaryForeignKey>
+    <summaryOperation>min</summaryOperation>
+    <type>Summary</type>
+</CustomField>

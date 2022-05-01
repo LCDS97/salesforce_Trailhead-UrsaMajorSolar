@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Discount_Percentage__c</fullName>
+    <description>Displays the percentage to be subtracted from the total amount of the opportunity.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>If the customer is getting a discount on this opportunity, enter the amount here. For example, if the discount is 10%, enter the whole number 10.</inlineHelpText>
+    <label>Discount Percentage</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Percent</type>
+</CustomField>
