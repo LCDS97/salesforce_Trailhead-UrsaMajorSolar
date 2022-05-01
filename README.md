@@ -7,6 +7,17 @@
 | ⚙️[Apex](#Apex)     | Trail to study about basics concepts of the language       | I will write later   |
 | 🚧[Apex Test](#ApexTest)   | Trail about Test class in Salesforce     | 3 Hands-on Challenge      |
 
+## 🚩 Next Trails
+| Trail      | Description | Questions and Challenges     |
+| :---        |    :----:   |          ---: |
+| 🧍[Apex Coding for Admins](https://trailhead.salesforce.com/en/content/learn/projects/quick-start-apex-coding-for-admins)     | Study about SOQL, FOR Loop and Developer Console       | 7 topics about   |
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
 
 <h2 align="center"> ⚙️ Apex </h2> <a name="Apex"></a>
 
