@@ -45,9 +45,12 @@
 <br>
 <br>
 <div align="center">
-<h2><img src="https://media.giphy.com/media/11kEuHSQAXXiGQ/giphy.gif" width=50/> Apex <img src="https://media.giphy.com/media/11kEuHSQAXXiGQ/giphy.gif" width=50/></h2> <a name="Apex"></a>
+<h2><img src="https://media.giphy.com/media/11kEuHSQAXXiGQ/giphy.gif" width=50/> Apex Basics & Database <img src="https://media.giphy.com/media/11kEuHSQAXXiGQ/giphy.gif" width=50/></h2> <a name="Apex"></a>
 <img src="https://media.giphy.com/media/Dh5q0sShxgp13DwrvG/giphy.gif" width=400 />
+
+**|** <img src="./assets/trailhead.png" width=20/> [Trailhead Module](https://trailhead.salesforce.com/content/learn/modules/apex_database) <img src="./assets/trailhead.png" width=20/> **|**
 </div>
+
 
 <br>
 
@@ -144,6 +147,8 @@
 <div align="center">
 <h3><img src="https://media.giphy.com/media/VhWFMl9M6zKpqB2dkc/giphy.gif" width=30 /> Quick Start: Apex <img src="https://media.giphy.com/media/VhWFMl9M6zKpqB2dkc/giphy.gif" width=30 /></h3>  <a name="ApexQuickStart"></a>
 <img src="https://media.giphy.com/media/OOZLyBA9Euq2I/giphy.gif" width=300 />
+
+**|** <img src="./assets/trailhead.png" width=20/> [Trailhead Module](https://trailhead.salesforce.com/en/content/learn/projects/quickstart-apex) <img src="./assets/trailhead.png" width=20/> **|**
 </div>
 
 <br>
@@ -171,6 +176,9 @@
 <div align="center">
 <h3><img src="https://media.giphy.com/media/hV1dkT2u1gqTUpKdKy/giphy.gif" width=30 /> Apex Test <img src="https://media.giphy.com/media/hV1dkT2u1gqTUpKdKy/giphy.gif" width=30 /></h3>  <a name="ApexTest"></a>
 <img src="https://media.giphy.com/media/7MZ0v9KynmiSA/giphy.gif" width=300 />
+
+**|** <img src="./assets/trailhead.png" width=20/> [Trailhead Module](https://trailhead.salesforce.com/en/content/learn/modules/apex_testing) <img src="./assets/trailhead.png" width=20/> **|**
+
 </div>
 
 <br>
@@ -190,8 +198,8 @@
 
 </details>
 
-- ⭐ [Class of the Challenge](./force-app/main/default/classes/ApexTest/VerifyDate.cls) ⭐
-- 🚧 [Test Class of the Challenge](./force-app/main/default/classes/ApexTest/TestVerifyDate.cls) 🚧
+- ⭐ [Class of the Challenge](./force-app/main/default/classes/Apex-Test/VerifyDate.cls) ⭐
+- 🚧 [Test Class of the Challenge](./force-app/main/default/classes/Apex-Test/TestVerifyDate.cls) 🚧
 
 ---
 
