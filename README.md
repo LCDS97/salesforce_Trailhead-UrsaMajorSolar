@@ -5,7 +5,7 @@
 <img align="center" src="https://media.giphy.com/media/sAq99u03v7IRHlN1dj/giphy.gif" width=300>
 
 
-## :file_folder: Completed  ✔️
+<h2> <img src="https://media.giphy.com/media/PijzuUzUhm7hcWinGn/giphy.gif" width=50 /> Completed <img src="https://media.giphy.com/media/PijzuUzUhm7hcWinGn/giphy.gif" width=50 /></h2> 
 
 | Trail      | Description | Questions and Challenges     |
 | :---        |    :----:   |          ---: |
@@ -20,7 +20,7 @@
 <img src="https://media.giphy.com/media/1GEATImIxEXVR79Dhk/giphy.gif" width=400>
 
 
-## In Progress
+<h2> <img src="https://media.giphy.com/media/BaBXfoDOvq6tRyK2L7/giphy.gif" width=30 /> In Progress <img src="https://media.giphy.com/media/BaBXfoDOvq6tRyK2L7/giphy.gif" width=30 /></h2>
 
 | Trail      | Description | Questions and Challenges     |
 | :---        |    :----:   |          ---: |
@@ -30,7 +30,7 @@
 <div align="center">
     <img src="https://media.giphy.com/media/citBl9yPwnUOs/giphy.gif" width=250>
 
-## 🚩 Next Trails
+<h2 align="center"> <img src="https://media.giphy.com/media/UIDv5ufQkpYULONT55/giphy.gif" width=50 />  Next Trails <img src="https://media.giphy.com/media/UIDv5ufQkpYULONT55/giphy.gif" width=50 /> </h2>
 
 
 | Trail      | Description | Questions and Challenges     |
@@ -44,12 +44,16 @@
 <br>
 <br>
 <br>
-
-<h2 align="center"> ⚙️ Apex </h2> <a name="Apex"></a>
+<div align="center">
+<h2><img src="https://media.giphy.com/media/11kEuHSQAXXiGQ/giphy.gif" width=50/> Apex <img src="https://media.giphy.com/media/11kEuHSQAXXiGQ/giphy.gif" width=50/></h2> <a name="Apex"></a>
+<img src="https://media.giphy.com/media/Dh5q0sShxgp13DwrvG/giphy.gif" width=400 />
+</div>
 
 ---
-
-<h3 align="center">Apex Test</h3>  <a name="ApexTest"></a>
+<div align="center">
+<h3><img src="https://media.giphy.com/media/hV1dkT2u1gqTUpKdKy/giphy.gif" width=30 /> Apex Test <img src="https://media.giphy.com/media/hV1dkT2u1gqTUpKdKy/giphy.gif" width=30 /></h3>  <a name="ApexTest"></a>
+<img src="https://media.giphy.com/media/7MZ0v9KynmiSA/giphy.gif" width=300 />
+</div>
 
 <br>
 
