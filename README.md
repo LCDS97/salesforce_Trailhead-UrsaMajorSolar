@@ -1,13 +1,37 @@
 # Trailhead Challenges
 > Personal org for my Trailhead Challenges, both admin path and dev path, I will do Hands-on Challenge and questions to further guide for me.
 
-## :file_folder: Summary
+<img align="right" src="https://media.giphy.com/media/sAq99u03v7IRHlN1dj/giphy.gif" width=300>
+
+## :file_folder: Completed </h2>
+
+
 | Trail      | Description | Questions and Challenges     |
 | :---        |    :----:   |          ---: |
 | ⚙️[Apex](#Apex)     | Trail to study about basics concepts of the language       | I will write later   |
+
+<br>
+
+<div align="center">
+
+## In Progress
+
+<img src="https://media.giphy.com/media/1GEATImIxEXVR79Dhk/giphy.gif" width=400>
+</div>
+
+
+
+| Trail      | Description | Questions and Challenges     |
+| :---        |    :----:   |          ---: |
 | 🚧[Apex Test](#ApexTest)   | Trail about Test class in Salesforce     | 3 Hands-on Challenge      |
 
+<div align="center">
+    <img src="https://media.giphy.com/media/citBl9yPwnUOs/giphy.gif" width=250>
+
 ## 🚩 Next Trails
+
+</div>
+
 | Trail      | Description | Questions and Challenges     |
 | :---        |    :----:   |          ---: |
 | 🧍[Apex Coding for Admins](https://trailhead.salesforce.com/en/content/learn/projects/quick-start-apex-coding-for-admins)     | Study about SOQL, FOR Loop and Developer Console       | 7 topics about   |
