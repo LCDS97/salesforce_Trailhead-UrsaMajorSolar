@@ -4,8 +4,8 @@
 <div align="center">
 <img align="center" src="https://media.giphy.com/media/sAq99u03v7IRHlN1dj/giphy.gif" width=300>
 
-## :file_folder: Completed  ✔️
 
+## :file_folder: Completed  ✔️
 
 | Trail      | Description | Questions and Challenges     |
 | :---        |    :----:   |          ---: |
@@ -16,11 +16,11 @@
 
 <div align="center">
 
-## In Progress
 
 <img src="https://media.giphy.com/media/1GEATImIxEXVR79Dhk/giphy.gif" width=400>
 
 
+## In Progress
 
 | Trail      | Description | Questions and Challenges     |
 | :---        |    :----:   |          ---: |
