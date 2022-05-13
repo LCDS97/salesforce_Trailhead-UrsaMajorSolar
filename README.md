@@ -11,6 +11,7 @@
 | :---        |    :----:   |          ---: |
 | 💾 [Apex Basics & Database](#Apex)     | Trail to study about basics concepts of the language, SOQL and SOSL      | 1 Quiz and 4 Hands On Challenge   |
 | ▶️ [Quick Start - Apex](#ApexQuickStart)     | Trail to write my a simple class update of Accounts      | A guided trail to Create a Class   |
+| ▶️ [Quick Start - LWC](#LWCQuickStart)     | Trail to create a simple hello World Component      | A guided trail to Create a LWC   |
 
 
 </div>
@@ -220,7 +221,7 @@
 
 ---
 <div align="center">
-<h3><img src="https://media.giphy.com/media/loHP3BaKgMhYaXWbHu/giphy.gif" width=30 /> Quick Start: Lightning Web Component <img src="https://media.giphy.com/media/loHP3BaKgMhYaXWbHu/giphy.gif" width=30 /></h3>  <a name="ApexTest"></a>
+<h3><img src="https://media.giphy.com/media/loHP3BaKgMhYaXWbHu/giphy.gif" width=30 /> Quick Start: Lightning Web Component <img src="https://media.giphy.com/media/loHP3BaKgMhYaXWbHu/giphy.gif" width=30 /></h3>  <a name="LWCQuickStart"></a>
 <img src="https://media.giphy.com/media/l41YrkD7I6LnwFd4Y/giphy.gif" width=300 />
 
 **|** <img src="./assets/trailhead.png" width=20/> [Trailhead Module](https://trailhead.salesforce.com/content/learn/projects/quick-start-lightning-web-components) <img src="./assets/trailhead.png" width=20/> **|**
@@ -231,5 +232,8 @@
 
 - [x] 1. Create a Hello World Lightning Web Component
 
+*Creating my first Lightning Web Component, the difference between him and Aura Components its to declare how the component is gonna be visible*
+**Aura**: *Inside the tag aura:component in cmp file*
+**LWC**: *In the meta.xml*
 
 - ✔️ [Guided Component of the Trail](./force-app/main/default/lwc/helloWorld/) ✔️
