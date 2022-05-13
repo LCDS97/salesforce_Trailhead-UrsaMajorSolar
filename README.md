@@ -217,3 +217,19 @@
 -       Run your test class at least once
 
 </details>
+
+---
+<div align="center">
+<h3><img src="https://media.giphy.com/media/loHP3BaKgMhYaXWbHu/giphy.gif" width=30 /> Quick Start: Lightning Web Component <img src="https://media.giphy.com/media/loHP3BaKgMhYaXWbHu/giphy.gif" width=30 /></h3>  <a name="ApexTest"></a>
+<img src="https://media.giphy.com/media/l41YrkD7I6LnwFd4Y/giphy.gif" width=300 />
+
+**|** <img src="./assets/trailhead.png" width=20/> [Trailhead Module](https://trailhead.salesforce.com/content/learn/projects/quick-start-lightning-web-components) <img src="./assets/trailhead.png" width=20/> **|**
+
+</div>
+
+<br>
+
+- [x] 1. Create a Hello World Lightning Web Component
+
+
+- ✔️ [Guided Component of the Trail](./force-app/main/default/lwc/helloWorld/) ✔️
