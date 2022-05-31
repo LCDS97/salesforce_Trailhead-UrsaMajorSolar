@@ -11,7 +11,7 @@ private class TestRestrictContactByName {
 
         Test.startTest();
         
-            Database.SaveResult result = Database.insert(contactTest, true);
+            Database.SaveResult result = Database.insert(contactTest, false);
 
         Test.stopTest();
 
