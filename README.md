@@ -29,6 +29,7 @@
 | :---        |    :----:   |          ---: |
 | 🚧[Apex Test](#ApexTest)   | Trail about Test class in Salesforce     | 3 Hands-on Challenge      |
 | 💾 [Apex Basics & Database](#ApexTest)   | Need to make the class challenges again     | 4 Hands-on Challenge      |
+| 💾 [Apex Integration](#ApexIntegration)   | Apex Integrations with REST and SOAP     | 2 Hands-on Challenge      |
 
 </div>
 <div align="center">
@@ -240,3 +241,36 @@
 **LWC**: *In the meta.xml*
 
 - ✔️ [Guided Component of the Trail](./force-app/main/default/lwc/helloWorld/) ✔️
+---
+
+<div align="center">
+<h3><img src="https://media.giphy.com/media/8vQZxOIVBZdhGy1Yka/giphy.gif" width=30 /> Apex Integration Services <img src="https://media.giphy.com/media/8vQZxOIVBZdhGy1Yka/giphy.gif" width=30 /></h3>  <a name="ApexIntegration"></a>
+<img src="https://media.giphy.com/media/iCeY8KoAQxYsLG453e/giphy.gif" width=300 />
+
+**|** <img src="./assets/trailhead.png" width=20/> [Trailhead Module](https://trailhead.salesforce.com/content/learn/modules/apex_integration_services) <img src="./assets/trailhead.png" width=20/> **|**
+
+</div>
+
+<br>
+
+- [x] 1. Add two Remote Sites to the Remote Site Settings to allow callouts to external sites.
+
+<details><summary>👣Steps👣</summary>
+
+>Create an Apex trigger on the Contact object
+*   *Add a Remote Site*
+    - **Name:** animals_http
+    - **Remote site URL:** th-apex-http-callout.herokuapp.com
+    - **Description:** Trailhead animal service: HTTP
+
+*   *Add a Remote Site*
+    - **Name:** animals_soap
+    - **Remote site URL:** th-apex-soap-service.herokuapp.com
+    - **Description:** Trailhead animal service: SOAP
+
+</details>
+
+
+
+- ✔️**Remote Site Settings Screenshot** ✔️ ![Screenshot of Remote Sites](./assets/apexIntegration-RemoteSites.png)
+
