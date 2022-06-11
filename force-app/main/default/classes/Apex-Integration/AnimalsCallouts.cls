@@ -5,9 +5,9 @@
  * @Ultima modificação em:   : [11, 06, 2022]
  * @Ultima modificação por:  : Lucas Conceição dos Santos / lucas.santos@everymind.com.br
 **/
-public with sharing class AnimalsREST {
+public with sharing class AnimalsCallouts {
     
-    public static void get(){
+    public static HttpResponse get(){
         
         Http http = new Http();
         HttpRequest request = new HttpRequest();
@@ -31,9 +31,10 @@ public with sharing class AnimalsREST {
                 System.debug(animal);
             }
         }
+        return response;
     }
 
-    public static void post(String animal){
+    public static HttpResponse post(String animal){
         
         Http http = new Http();
         httpRequest request = new HttpRequest();
@@ -54,5 +55,7 @@ public with sharing class AnimalsREST {
         } else {
             System.debug(response.getBody());
         }
+        
+        return response;
     }
 }

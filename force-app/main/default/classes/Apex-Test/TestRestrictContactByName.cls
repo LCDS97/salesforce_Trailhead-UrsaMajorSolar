@@ -20,4 +20,4 @@ private class TestRestrictContactByName {
         System.assertEquals('The Last Name "INVALIDNAME" is not allowed for DML', result.getErrors()[0].getMessage());
         
     }
-} 
+}
