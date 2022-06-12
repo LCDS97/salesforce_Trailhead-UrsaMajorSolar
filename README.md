@@ -47,8 +47,8 @@
 <br>
 <br>
 <div align="center">
-<h2><img src="https://media.giphy.com/media/11kEuHSQAXXiGQ/giphy.gif" width=50/> Apex Basics & Database <img src="https://media.giphy.com/media/11kEuHSQAXXiGQ/giphy.gif" width=50/></h2> <a name="Apex"></a>
-<img src="https://media.giphy.com/media/Dh5q0sShxgp13DwrvG/giphy.gif" width=400 />
+<h3><img src="https://media.giphy.com/media/11kEuHSQAXXiGQ/giphy.gif" width=30 /> Quick Start: Apex <img src="https://media.giphy.com/media/11kEuHSQAXXiGQ/giphy.gif" width=30 /></h3>  <a name="Apex"></a>
+<img src="https://media.giphy.com/media/Dh5q0sShxgp13DwrvG/giphy.gif" width=300 />
 
 **|** <img src="./assets/trailhead.png" width=20/> [Trailhead Module](https://trailhead.salesforce.com/content/learn/modules/apex_database) <img src="./assets/trailhead.png" width=20/> **|**
 </div>
