@@ -302,6 +302,7 @@
 - 🚧 [Test Class of the Trailhead](./force-app/main/default/classes/Apex-Integration/AnimalsCalloutsTest.cls) 🚧
 
 
-- ⭐ [Class of the Hands-On Challenge](./force-app/main/default/classes/Apex-Integration/AnimalsCallouts.cls) ⭐
-- 🚧 [Test Class of the Hands-On Challenge](./force-app/main/default/classes/Apex-Test/TestVerifyDate.cls) 🚧
+- ⭐ [Class of the Hands-On Challenge](./force-app/main/default/classes/Apex-Integration/AnimalLocator.cls) ⭐
+- 🚧 [Test Class of the Hands-On Challenge](./force-app/main/default/classes/Apex-Test/AnimalLocatorTest.cls) 🚧
+- 🚧 [Mock Class of the Hands-On Challenge](./force-app/main/default/classes/Apex-Test/AnimalLocatorMock.cls) 🚧
 
