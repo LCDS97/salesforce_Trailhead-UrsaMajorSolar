@@ -306,3 +306,50 @@
 - 🚧 [Test Class of the Hands-On Challenge](./force-app/main/default/classes/Apex-Test/AnimalLocatorTest.cls) 🚧
 - 🚧 [Mock Class of the Hands-On Challenge](./force-app/main/default/classes/Apex-Test/AnimalLocatorMock.cls) 🚧
 
+- [x] 3. Generate an Apex class using WSDL2Apex and write a test class.
+    *Generate an Apex class using WSDL2Apex for a SOAP web service, write unit tests that achieve 100% code coverage for the class using a mock response, and run your Apex tests.*
+
+
+<details><summary>👣Steps👣</summary>
+
+>Create an Apex class:
+*   Name: AnimalLocator
+*   Method name: getAnimalNameById
+    - The method must accept an Integer and return a String.
+    - The method must call https://th-apex-http-callout.herokuapp.com/animals/<id>, replacing <id> with the ID passed into the method 
+    - The method returns the value of the name property (i.e., the animal name)
+
+>Create a test class:
+*   Name: AnimalLocatorTest
+    - The test class uses a mock class called AnimalLocatorMock to mock the callout response
+
+>Create unit tests:
+*   Unit tests must cover all lines of code included in the AnimalLocator class, resulting in 100% code coverage
+    - Run your test class at least once (via Run All tests the Developer Console) before attempting to verify this challenge
+>Generate a class using this using this WSDL file:
+*   Name: ParkService (Tip: After you click the Parse WSDL button, change the Apex class name from parksServices to ParkService)
+    - Class must be in public scope
+*   Create a class:
+    - Name: ParkLocator
+    - Class must have a country method that uses the ParkService class
+    - Method must return an array of available park names for a particular country passed to the web service (such as Germany, India, Japan, and United States)
+*   Create a test class:
+    - Name: ParkLocatorTest
+    - Test class uses a mock class called ParkServiceMock to mock the callout response
+*   Create unit tests:
+    - Unit tests must cover all lines of code included in the ParkLocator class, resulting in 100% code coverage.
+    - Run your test class at least once (via Run All tests the Developer Console) before attempting to verify this challenge.
+
+</details>
+
+- ⭐ [SOAP Calculator Services class of the Trailhead](./force-app/main/default/classes/Apex-Integration/calculatorServices.cls) ⭐
+- ⭐ [SOAP Async Calculator Services class of the Trailhead](./force-app/main/default/classes/Apex-Integration/AsyncCalculatorServices.cls) ⭐
+- ⭐ [Class of the Trailhead](./force-app/main/default/classes/Apex-Integration/AwesomeCalculator.cls) ⭐
+- 🚧 [Test Class of the Trailhead](./force-app/main/default/classes/Apex-Integration/AwesomeCalculatorTest.cls) 🚧
+- 🚧 [Mock Class of the Trailhead](./force-app/main/default/classes/Apex-Integration/CalculatorCalloutMock.cls) 🚧
+
+
+- ⭐ [Class of the Hands-On Challenge](./force-app/main/default/classes/Apex-Integration/AnimalLocator.cls) ⭐
+- 🚧 [Test Class of the Hands-On Challenge](./force-app/main/default/classes/Apex-Test/AnimalLocatorTest.cls) 🚧
+- 🚧 [Mock Class of the Hands-On Challenge](./force-app/main/default/classes/Apex-Test/AnimalLocatorMock.cls) 🚧
+
