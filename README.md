@@ -276,6 +276,7 @@
 
 
 - [x] 2. Create an Apex class that calls a REST endpoint and write a test class.
+
     *Create an Apex class that calls a REST endpoint to return the name of an animal, write unit tests that achieve 100% code coverage for the class using a mock response, and run your Apex tests.*
 
 
@@ -307,6 +308,7 @@
 - 🚧 [Mock Class of the Hands-On Challenge](./force-app/main/default/classes/Apex-Test/AnimalLocatorMock.cls) 🚧
 
 - [x] 3. Generate an Apex class using WSDL2Apex and write a test class.
+
     *Generate an Apex class using WSDL2Apex for a SOAP web service, write unit tests that achieve 100% code coverage for the class using a mock response, and run your Apex tests.*
 
 
@@ -352,4 +354,32 @@
 - ⭐ [Class of the Hands-On Challenge](./force-app/main/default/classes/Apex-Integration/AnimalLocator.cls) ⭐
 - 🚧 [Test Class of the Hands-On Challenge](./force-app/main/default/classes/Apex-Test/AnimalLocatorTest.cls) 🚧
 - 🚧 [Mock Class of the Hands-On Challenge](./force-app/main/default/classes/Apex-Test/AnimalLocatorMock.cls) 🚧
+
+
+- [x] 4. Create an Apex REST service that returns an account and its contacts.
+
+    *Create an Apex REST class that is accessible at /Accounts/<Account_ID>/contacts. The service will return the account's ID and name plus the ID and name of all contacts associated with the account. Write unit tests that achieve 100% code coverage for the class and run your Apex tests.*
+
+
+<details><summary>👣Steps👣</summary>
+
+>Create an Apex class
+*   Name: AccountManager
+    - Class must have a method called getAccount
+    - Method must be annotated with @HttpGet and return an Account object
+    - Method must return the ID and Name for the requested record and all associated contacts with their ID and Name
+
+>Create unit tests
+*   Unit tests must be in a separate Apex class called AccountManagerTest
+    - Unit tests must cover all lines of code included in the AccountManager class, resulting in 100% code coverage
+    - Run your test class at least once (via Run All tests the Developer Console) before attempting to verify this challenge
+
+</details>
+
+- ⭐ [Class of the Trailhead](./force-app/main/default/classes/Apex-Integration/CaseManager.cls) ⭐
+- 🚧 [Test Class of the Trailhead](./force-app/main/default/classes/Apex-Integration/CaseManagerTest.cls) 🚧
+
+
+- ⭐ [Class of the Hands-On Challenge](./force-app/main/default/classes/Apex-Integration/AnimalLocator.cls) ⭐
+- 🚧 [Test Class of the Hands-On Challenge](./force-app/main/default/classes/Apex-Test/AnimalLocatorTest.cls) 🚧
 
