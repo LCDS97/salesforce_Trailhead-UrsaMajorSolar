@@ -12,6 +12,7 @@
 | 💾 [Apex Basics & Database](#Apex)     | Trail to study about basics concepts of the language, SOQL and SOSL      | 1 Quiz and 4 Hands On Challenge   |
 | ▶️ [Quick Start - Apex](#ApexQuickStart)     | Trail to write my a simple class update of Accounts      | A guided trail to Create a Class   |
 | ▶️ [Quick Start - LWC](#LWCQuickStart)     | Trail to create a simple hello World Component      | A guided trail to Create a LWC   |
+| 💾 [Apex Integration](#ApexIntegration)   | Apex Integrations with REST and SOAP     | 4 Hands-on Challenge      |
 
 
 </div>
@@ -29,7 +30,7 @@
 | :---        |    :----:   |          ---: |
 | 🚧[Apex Test](#ApexTest)   | Trail about Test class in Salesforce     | 3 Hands-on Challenge      |
 | 💾 [Apex Basics & Database](#ApexTest)   | Need to make the class challenges again     | 4 Hands-on Challenge      |
-| 💾 [Apex Integration](#ApexIntegration)   | Apex Integrations with REST and SOAP     | 2 Hands-on Challenge      |
+
 
 </div>
 <div align="center">
@@ -380,6 +381,6 @@
 - 🚧 [Test Class of the Trailhead](./force-app/main/default/classes/Apex-Integration/CaseManagerTest.cls) 🚧
 
 
-- ⭐ [Class of the Hands-On Challenge](./force-app/main/default/classes/Apex-Integration/AnimalLocator.cls) ⭐
-- 🚧 [Test Class of the Hands-On Challenge](./force-app/main/default/classes/Apex-Test/AnimalLocatorTest.cls) 🚧
+- ⭐ [Class of the Hands-On Challenge](./force-app/main/default/classes/Apex-Integration/AccountManager.cls) ⭐
+- 🚧 [Test Class of the Hands-On Challenge](./force-app/main/default/classes/Apex-Test/AccountManagerTest.cls) 🚧
 
