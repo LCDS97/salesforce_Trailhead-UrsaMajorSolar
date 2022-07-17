@@ -16,6 +16,8 @@ public with sharing class RandomContactFactory {
             Contact c = new Contact(LastName = lastName, FirstName= String.valueOf(i));
             ctts.add(c);
         }
+        insert ctts;
+
         return ctts;
     }
 }
