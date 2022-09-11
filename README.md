@@ -31,7 +31,7 @@
 | :---        |    :----:   |          ---: |
 | 🚧[Apex Test](#ApexTest)   | Trail about Test class in Salesforce     | 3 Hands-on Challenge      |
 | 💾 [Apex Basics & Database](#ApexTest)   | Need to make the class challenges again     | 4 Hands-on Challenge      |
-| 💾 [Basic notion of Visualforces](#VFBasics)   | Visualforce Basics ( Need to write about that later )     | 1 Hands-on Challenge      |
+| 💾 [Basic notion of Visualforces](#VFBasics)   | Visualforce Basics ( Need to write about that later )     | 2 Hands-on Challenge      |
 
 
 </div>
