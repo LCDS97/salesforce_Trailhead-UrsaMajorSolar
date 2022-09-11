@@ -1,0 +1,15 @@
+<apex:page standardController="Account">
+    <apex:pageBlock title="Account Summary">
+        <apex:pageBlockSection>
+            Name: {! Account.Name } <br/>
+            Phone: {! Account.Phone } <br/>
+            Industry: {! Account.Industry } <br/>
+            Revenue: {! Account.AnnualRevenue } <br/>
+            Account owner: {! Account.Owner.Name } <br/>
+        </apex:pageBlockSection>
+    </apex:pageBlock>
+    <script>
+        $A.get("e.force:navigateToURL").setParams(
+        {"url": "/apex/AccountSummary&id=0015f00000C7Up0AAF"}).fire();
+    </script>
+</apex:page>
