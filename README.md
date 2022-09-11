@@ -13,6 +13,7 @@
 | ▶️ [Quick Start - Apex](#ApexQuickStart)     | Trail to write my a simple class update of Accounts      | A guided trail to Create a Class   |
 | ▶️ [Quick Start - LWC](#LWCQuickStart)     | Trail to create a simple hello World Component      | A guided trail to Create a LWC   |
 | 💾 [Apex Integration](#ApexIntegration)   | Apex Integrations with REST and SOAP     | 4 Hands-on Challenge      |
+| 💾 [ToDo Manager Component](#ToDo)   | ToDo Component for Salesforce    | Youtube Video Course     |
 
 
 </div>
@@ -406,3 +407,10 @@
 - ⭐ [Class of the Hands-On Challenge](./force-app/main/default/classes/Apex-Integration/AccountManager.cls) ⭐
 - 🚧 [Test Class of the Hands-On Challenge](./force-app/main/default/classes/Apex-Test/AccountManagerTest.cls) 🚧
 
+<div align="center">
+<h3><img src="https://media.giphy.com/media/d2ZhIkBvogTIzOik/giphy.gif" width=30 /> LWC Course - ToDo Manager <img src="https://media.giphy.com/media/d2ZhIkBvogTIzOik/giphy.gif" width=30 /></h3>  <a name="ToDo"></a>
+<img src="https://media.giphy.com/media/l0JMrPWRQkTeg3jjO/giphy.gif" width=300 />
+
+**|** <img src="https://media.giphy.com/media/gjNpNqwG5H8oRYfZFe/giphy.gif" width=20/> [Youtube Course](https://youtu.be/bLyAsIeDZtw) <img src="https://media.giphy.com/media/gjNpNqwG5H8oRYfZFe/giphy.gif" width=20/> **|**
+
+</div>
