@@ -1,0 +1,24 @@
+<apex:page>
+    <apex:pageBlock title="User Status">
+        <apex:pageBlockSection columns="1">
+            {! $User.FirstName & ' ' & $User.LastName }
+            ({! IF($User.isActive, $User.Username, 'inactive') })
+        </apex:pageBlockSection>
+        <apex:pageBlockSection title="Conditionals tests">
+            <p>Today Date is {! DAY(TODAY())} from the month {! MONTH(TODAY())} and year is {! YEAR(TODAY())}</p>
+            <p>{! IF( DAY(TODAY()) < 15,
+                'Before the 15th', 'The 15th or after') }</p>
+            <p>Tomorrow will be day number  {! DAY(TODAY() + 1) }</p>
+            <p>Next week will be {! DAY(TODAY()) + 7}</p>
+            <p>Next month will be {! MONTH(TODAY()) + 1}</p>
+            <p>Next year will be {! YEAR(TODAY()) + 1}</p>
+            <p>Let's find a maximum FROM (1,2,3,4,5,6,5,4,3,2,1):</p>
+            <p>{! MAX(1,2,3,4,5,6,5,4,3,2,1) } </p>
+            <p>The square root of 49 is {! SQRT(49) }</p>
+            <p>Is it true? Salesforce.com contains force.com?</p>
+            <p style="text-transform: uppercase">{! CONTAINS('salesforce.com', 'force.com') }</p>
+            <p>{! IF( CONTAINS('salesforce.com','force.com'),
+                'Yep', 'Nope') }</p>
+        </apex:pageBlockSection>
+    </apex:pageBlock>
+</apex:page>

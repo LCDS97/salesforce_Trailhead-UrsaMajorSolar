@@ -30,6 +30,7 @@
 | :---        |    :----:   |          ---: |
 | 🚧[Apex Test](#ApexTest)   | Trail about Test class in Salesforce     | 3 Hands-on Challenge      |
 | 💾 [Apex Basics & Database](#ApexTest)   | Need to make the class challenges again     | 4 Hands-on Challenge      |
+| 💾 [Basic notion of Visualforces](#VFBasics)   | Visualforce Basics ( Need to write about that later )     | 1 Hands-on Challenge      |
 
 
 </div>
@@ -223,6 +224,27 @@
 
 - ⭐ [Trigger of the Challenge](./force-app/main/default/triggers/RestrictContactByName.trigger) ⭐
 - 🚧 [Test Class of the Challenge](./force-app/main/default/classes/Apex-Test/TestVerifyDate.cls) 🚧
+
+---
+
+- [x] 3. **Create a Contact Test Factory**
+
+*Create an Apex class that returns a list of contacts based on two incoming parameters: the number of contacts to generate and the last name. Do not insert the generated contact records into the database.*
+
+<details><summary>👣Steps👣</summary>
+
+>Create an Apex class in the public scope
+*   Name: RandomContactFactory (without the @isTest annotation)
+    - Use a Public Static Method to consistently generate contacts with unique first names based on the iterated number in the format Test 1, Test 2 and so on.
+*   Method Name: generateRandomContacts (without the @isTest annotation)
+    - Parameter 1: An integer that controls the number of contacts being generated with unique first names
+    - Parameter 2: A string containing the last name of the contacts
+    - Return Type: List < Contact >
+
+</details>
+
+- ⭐ [Data factory of the Trailhead](./force-app/main/default/classes/Apex-Test/TestDataFactory.cls) ⭐
+- ⭐ [Data factory of the Hands-on Challenge](./force-app/main/default/classes/Apex-Test/RandomContactFactory.cls) ⭐
 
 ---
 <div align="center">
